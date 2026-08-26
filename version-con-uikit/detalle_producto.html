@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halo 5: Guardians - PomiGames (UIkit)</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.12/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.12/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.12/dist/js/uikit-icons.min.js"></script>
+</head>
+<body class="uk-background-secondary uk-light uk-flex uk-flex-column uk-height-viewport uk-flex-between">
+
+    <!-- Header Semántico -->
+    <header class="uk-background-secondary uk-box-shadow-medium uk-position-z-index uk-sticky" uk-sticky>
+        <section class="uk-container uk-padding-remove-vertical">
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                <section class="uk-navbar-left">
+                    <h1 class="uk-navbar-item uk-logo uk-margin-remove">
+                        <a href="index.html" class="uk-link-reset text-white">PomiGames</a>
+                    </h1>
+                </section>
+                <section class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="index.html#games">Juegos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </section>
+            </nav>
+        </section>
+    </header>
+
+    <!-- Vista Detalle de Producto -->
+    <main class="uk-section uk-flex-1">
+        <section class="uk-container">
+            <article class="product-detail-card uk-box-shadow-large">
+                <section class="uk-child-width-1-1 uk-child-width-1-2@m uk-grid-large uk-flex-middle" uk-grid>
+                    
+                    <!-- Imagen del Juego -->
+                    <figure class="uk-margin-remove">
+                        <img src="img/halo_5.jpg" alt="Halo 5: Guardians" class="uk-border-rounded uk-width-1-1 uk-box-shadow-medium">
+                    </figure>
+
+                    <!-- Ficha del Producto -->
+                    <section>
+                        <header>
+                            <span class="uk-label uk-label-warning">Xbox One / PC</span>
+                            <h2 class="product-detail-title">Halo 5: Guardians</h2>
+                            <p class="uk-text-meta uk-margin-remove-top">Desarrollador: 343 Industries | Género: Shooter FPS</p>
+                        </header>
+
+                        <p class="product-detail-desc">
+                            Shooter de ciencia ficción donde la historia se divide entre dos protagonistas: el legendario Master Chief (quien desobedece órdenes para buscar a Cortana) y el Spartan Locke, el cazador enviado por la UNSC para detenerlo.
+                        </p>
+
+                        <!-- Especificaciones y Precio -->
+                        <aside class="uk-margin-medium-top uk-padding-small uk-background-muted uk-border-rounded">
+                            <p class="uk-margin-remove uk-flex uk-flex-middle">
+                                <span class="uk-text-bold uk-text-primary uk-text-large">$29.99</span>
+                                <span class="uk-text-muted uk-margin-small-left uk-text-strikethrough">$59.99</span>
+                                <span class="uk-badge uk-margin-small-left">-50%</span>
+                            </p>
+
+                            <ul class="uk-list uk-list-divider uk-margin-small-top uk-text-small">
+                                <li><strong>Plataforma:</strong> Digital Key</li>
+                                <li><strong>Estado:</strong> En Stock</li>
+                                <li><strong>Formato:</strong> Descarga directa</li>
+                                <li><strong>Idioma:</strong> Español / Inglés</li>
+                            </ul>
+                        </aside>
+
+                        <!-- Formulario de Compra -->
+                        <form class="uk-margin-top uk-form-stacked">
+                            <p class="uk-margin-small-bottom uk-flex uk-flex-middle">
+                                <label for="cantidad" class="uk-form-label uk-margin-small-right">Cantidad:</label>
+                                <select id="cantidad" class="uk-select uk-form-width-small">
+                                    <option value="1">1 Unidad</option>
+                                    <option value="2">2 Unidades</option>
+                                    <option value="3">3 Unidades</option>
+                                </select>
+                            </p>
+
+                            <button type="button" class="uk-button uk-button-primary uk-button-large uk-width-1-1 uk-margin-top">
+                                Añadir al Carrito
+                            </button>
+                        </form>
+                    </section>
+
+                </section>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contacto" class="uk-section uk-section-xsmall">
+        <section class="uk-container uk-flex uk-flex-between uk-flex-middle">
+            <p class="uk-margin-remove">&copy; 2026 PomiGames. Todos los derechos reservados.</p>
+            <nav>
+                <ul class="uk-subnav uk-margin-remove">
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Términos de Servicio</a></li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+
+</body>
+</html>

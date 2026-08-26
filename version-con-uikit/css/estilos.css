@@ -1,0 +1,198 @@
+html, body {
+    background-color: #1f2937 !important;
+    color: #ffffff !important;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+header,
+header.uk-background-secondary,
+.uk-navbar-container {
+    background-color: #1f2937 !important;
+    border-bottom: 1px solid #374151 !important; 
+    box-shadow: none !important;                 
+}
+
+.uk-navbar,
+.uk-navbar-container {
+    min-height: 48px !important;
+    height: 48px !important;
+}
+
+.uk-navbar-item, 
+.uk-navbar-nav > li > a {
+    color: #ffffff !important;
+    font-size: 0.875rem !important;
+    text-transform: none !important;
+    min-height: 48px !important;
+    height: 48px !important;
+    padding: 0 0.75rem !important;
+}
+
+.uk-navbar-nav > li > a:hover {
+    color: #9ca3af !important;
+}
+
+.uk-logo {
+    color: #ffffff !important;
+    font-size: 1.125rem !important;
+    font-weight: 700 !important;
+}
+
+main {
+    background-color: #1f2937 !important;
+}
+
+.uk-overlay-primary {
+    background: rgba(17, 24, 39, 0.6) !important;
+}
+
+.uk-overlay .uk-button-primary {
+    background-color: #111827 !important;
+    color: #ffffff !important;
+    border-radius: 1rem !important;
+    font-weight: 700 !important;
+    padding: 0.75rem 1.5rem !important;
+    text-transform: none !important;
+    border: none !important;
+}
+
+.uk-overlay .uk-button-primary:hover {
+    background-color: #374151 !important;
+}
+
+.uk-card-secondary {
+    background-color: #374151 !important;
+    color: #ffffff !important;
+    border-radius: 0.75rem !important;
+    border: none !important;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
+    will-change: transform;
+}
+
+.uk-card-title {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 1.5rem !important;
+}
+
+.uk-card-body p,
+.uk-text-meta {
+    color: #d1d5db !important;
+    font-size: 0.875rem !important;
+}
+
+.uk-card-hover:hover {
+    transform: scale(1.05) !important;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.4) !important;
+}
+
+.uk-button-primary,
+a.uk-button-primary {
+    background-color: #2563eb !important;
+    color: #ffffff !important;
+    border-radius: 0.5rem !important;
+    font-weight: 600 !important;
+    text-transform: none !important;
+    border: none !important;
+    transition: background-color 0.2s ease !important;
+}
+
+.uk-button-primary:hover,
+a.uk-button-primary:hover {
+    background-color: #1d4ed8 !important;
+}
+
+.product-detail-card {
+    background-color: #1f2937 !important;
+    border: 1px solid #374151 !important;
+    border-radius: 1rem !important;
+    padding: 2rem !important;
+}
+
+.product-detail-title {
+    font-size: 2.25rem !important;
+    line-height: 1.2 !important;
+    font-weight: 800 !important;
+    color: #ffffff !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.product-detail-desc {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    color: #d1d5db !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.uk-background-muted,
+aside.uk-background-muted {
+    background-color: #111827 !important;
+    border: 1px solid #374151 !important;
+    color: #ffffff !important;
+}
+
+.uk-background-muted .uk-text-primary {
+    color: #3b82f6 !important;
+}
+
+.uk-background-muted .uk-text-muted {
+    color: #9ca3af !important;
+}
+
+.uk-list-divider > li {
+    border-top-color: #374151 !important;
+    color: #d1d5db !important;
+}
+
+.uk-badge {
+    background-color: rgba(34, 197, 94, 0.2) !important;
+    color: #4ade80 !important;
+    font-weight: 700 !important;
+}
+
+.uk-label-warning {
+    background-color: rgba(37, 99, 235, 0.3) !important;
+    color: #60a5fa !important;
+    border: 1px solid rgba(59, 130, 246, 0.2) !important;
+    text-transform: uppercase !important;
+    border-radius: 9999px !important;
+    padding: 0.25rem 0.75rem !important;
+}
+
+.uk-select {
+    background-color: #374151 !important;
+    color: #ffffff !important;
+    border: 1px solid #4b5563 !important;
+    border-radius: 0.5rem !important;
+}
+
+footer.uk-section,
+footer#contacto {
+    background-color: #000000 !important;
+    border-top: 1px solid #1f2937 !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+footer p, 
+footer a,
+footer .uk-subnav a {
+    font-size: 0.75rem !important;
+    color: #6b7280 !important;
+    text-transform: none !important;
+}
+
+footer a:hover,
+footer .uk-subnav a:hover {
+    color: #9ca3af !important;
+}
+
+figure {
+    margin: 0 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}

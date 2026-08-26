@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PomiGames - Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="bg-gray-800 font-sans flex flex-col min-h-screen justify-between">
+    
+    <!-- Encabezado Semántico -->
+    <header class="bg-gray-800 shadow-md sticky top-0 z-50"> 
+        <section class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-lg md:text-xl text-white font-bold hover:text-gray-400 transition">
+                <a href="index.html">PomiGames</a>
+            </h1>
+            <nav>
+                <ul class="flex space-x-3 md:space-x-6 text-sm font-medium">
+                    <li><a href="index.html" class="text-white hover:text-gray-400 transition">Inicio</a></li>
+                    <li><a href="#games" class="text-white hover:text-gray-400 transition">Juegos</a></li>
+                    <li><a href="#contacto" class="text-white hover:text-gray-400 transition">Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    
+    <!-- Contenido Principal -->
+    <main class="flex-grow">
+        <!-- Hero Section -->
+        <section class="relative h-[70vh] md:h-screen overflow-hidden flex items-center justify-center">
+            <img src="img/port.jpg" class="absolute inset-0 w-full h-full object-cover blur-sm scale-105" alt="Portada de PomiGames" />
+            <article class="relative z-10 flex flex-col items-center justify-center text-center px-4">
+                <h2 class="text-white text-4xl md:text-6xl font-bold drop-shadow-md">PomiGames</h2>
+                <p class="mt-4 text-white text-lg md:text-xl font-semibold drop-shadow">¡Los juegos más jugados!</p>
+                <a href="#games" class="mt-6 inline-block bg-gray-900 text-white font-bold px-6 py-3 rounded-2xl hover:bg-gray-700 transition shadow-lg">
+                    Ver Juegos
+                </a>
+            </article>
+        </section>
+            
+        <!-- Grilla de Cards Semántica (Mobile First) -->
+        <section id="games" class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+            
+            <!-- Card 1: Halo 5 -->
+            <article class="bg-gray-700 rounded-xl overflow-hidden shadow-lg flex flex-col justify-between transition-transform duration-300 hover:scale-105">
+                <figure class="m-0">
+                    <img src="img/halo_5.jpg" alt="Halo 5: Guardians" class="w-full h-56 object-cover">
+                    <figcaption class="p-4">
+                        <h3 class="text-white text-2xl font-bold mb-2">Halo 5: Guardians</h3>
+                        <p class="text-gray-300 text-sm">Shooter de ciencia ficción donde la historia se divide entre Master Chief y el Spartan Locke.</p>
+                    </figcaption>
+                </figure>
+                <footer class="p-4">
+                    <a href="detalle_producto.html" class="block text-center bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition">Ver Detalle</a>
+                </footer>
+            </article>
+
+            <!-- Card 2: Spider-Man -->
+            <article class="bg-gray-700 rounded-xl overflow-hidden shadow-lg flex flex-col justify-between transition-transform duration-300 hover:scale-105">
+                <figure class="m-0">
+                    <img src="img/spider_man.jpg" alt="Spider-Man" class="w-full h-56 object-cover">
+                    <figcaption class="p-4">
+                        <h3 class="text-white text-2xl font-bold mb-2">Spider-Man</h3>
+                        <p class="text-gray-300 text-sm">Aclamado juego de acción en mundo abierto protagonizado por Peter Parker en Nueva York.</p>
+                    </figcaption>
+                </figure>
+                <footer class="p-4">
+                    <a href="detalle_producto.html" class="block text-center bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition">Ver Detalle</a>
+                </footer>
+            </article>
+
+            <!-- Card 3: Mortal Kombat -->
+            <article class="bg-gray-700 rounded-xl overflow-hidden shadow-lg flex flex-col justify-between transition-transform duration-300 hover:scale-105">
+                <figure class="m-0">
+                    <img src="img/mortal_kombat.jpg" alt="Mortal Kombat" class="w-full h-56 object-cover">
+                    <figcaption class="p-4">
+                        <h3 class="text-white text-2xl font-bold mb-2">Mortal Kombat</h3>
+                        <p class="text-gray-300 text-sm">Franquicia icónica de lucha famosa por sus dinámicas de combate y sangrientos Fatalities.</p>
+                    </figcaption>
+                </figure>
+                <footer class="p-4">
+                    <a href="detalle_producto.html" class="block text-center bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition">Ver Detalle</a>
+                </footer>
+            </article>
+
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer id="contacto" class="bg-black text-white border-t border-gray-800 py-4">
+        <section class="container mx-auto px-6 flex flex-col sm:flex-row justify-between items-center text-xs text-gray-500 space-y-2 sm:space-y-0">
+            <p>&copy; 2026 PomiGames. Todos los derechos reservados.</p>
+            <nav class="flex space-x-4">
+                <a href="#" class="hover:text-gray-400 transition">Política de Privacidad</a>
+                <a href="#" class="hover:text-gray-400 transition">Términos de Servicio</a>
+            </nav>
+        </section>
+    </footer>
+
+</body>
+</html>
